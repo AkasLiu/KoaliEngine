@@ -1,0 +1,51 @@
+﻿  BoundingBox.cpp
+  Camera.cpp
+  Cube.cpp
+  DirectInputClass.cpp
+  EngineGraphic.cpp
+  GameObject.cpp
+  KoaliFrustum.cpp
+  KoaliMaterial.cpp
+  KoaliText.cpp
+  KoaliTexture.cpp
+  Light.cpp
+  MaterialsManager.cpp
+  MyTransform.cpp
+  ObjectModel.cpp
+  ParticleSystem.cpp
+  Quad.cpp
+  SkyBox.cpp
+  SnowSystem.cpp
+  Vertex.cpp
+  zfxLODTerrain.cpp
+f:\code\毕设\koaliengine\koaliengine\src\zfxlodterrain.cpp(111): error C4996: '_wfopen': This function or variable may be unsafe. Consider using _wfopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  d:\windows kits\10\include\10.0.17763.0\ucrt\corecrt_wstdio.h(130): note: 参见“_wfopen”的声明
+f:\code\毕设\koaliengine\koaliengine\src\zfxlodterrain.cpp(214): error C2664: “HRESULT D3DXCompileShaderFromFileW(LPCWSTR,const D3DXMACRO *,LPD3DXINCLUDE,LPCSTR,LPCSTR,DWORD,LPD3DXBUFFER *,LPD3DXBUFFER *,LPD3DXCONSTANTTABLE *)”: 无法将参数 1 从“const char [9]”转换为“LPCWSTR”
+  f:\code\毕设\koaliengine\koaliengine\src\zfxlodterrain.cpp(214): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+f:\code\毕设\koaliengine\koaliengine\src\zfxlodterrain.cpp(220): error C2664: “HRESULT D3DXCompileShaderFromFileW(LPCWSTR,const D3DXMACRO *,LPD3DXINCLUDE,LPCSTR,LPCSTR,DWORD,LPD3DXBUFFER *,LPD3DXBUFFER *,LPD3DXCONSTANTTABLE *)”: 无法将参数 1 从“const char [9]”转换为“LPCWSTR”
+  f:\code\毕设\koaliengine\koaliengine\src\zfxlodterrain.cpp(220): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+f:\code\毕设\koaliengine\koaliengine\src\zfxlodterrain.cpp(242): warning C4477: “sprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“LPCTSTR”
+  f:\code\毕设\koaliengine\koaliengine\src\zfxlodterrain.cpp(242): note: 请考虑在格式字符串中使用“%ls”
+  f:\code\毕设\koaliengine\koaliengine\src\zfxlodterrain.cpp(242): note: 请考虑在格式字符串中使用“%lls”
+  f:\code\毕设\koaliengine\koaliengine\src\zfxlodterrain.cpp(242): note: 请考虑在格式字符串中使用“%Ls”
+  f:\code\毕设\koaliengine\koaliengine\src\zfxlodterrain.cpp(242): note: 请考虑在格式字符串中使用“%ws”
+f:\code\毕设\koaliengine\koaliengine\src\zfxlodterrain.cpp(243): error C2664: “HRESULT D3DXCreateTextureFromFileW(LPDIRECT3DDEVICE9,LPCWSTR,LPDIRECT3DTEXTURE9 *)”: 无法将参数 2 从“char [60]”转换为“LPCWSTR”
+  f:\code\毕设\koaliengine\koaliengine\src\zfxlodterrain.cpp(243): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+f:\code\毕设\koaliengine\koaliengine\src\zfxlodterrain.cpp(249): warning C4477: “sprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“LPCTSTR”
+  f:\code\毕设\koaliengine\koaliengine\src\zfxlodterrain.cpp(249): note: 请考虑在格式字符串中使用“%ls”
+  f:\code\毕设\koaliengine\koaliengine\src\zfxlodterrain.cpp(249): note: 请考虑在格式字符串中使用“%lls”
+  f:\code\毕设\koaliengine\koaliengine\src\zfxlodterrain.cpp(249): note: 请考虑在格式字符串中使用“%Ls”
+  f:\code\毕设\koaliengine\koaliengine\src\zfxlodterrain.cpp(249): note: 请考虑在格式字符串中使用“%ws”
+f:\code\毕设\koaliengine\koaliengine\src\zfxlodterrain.cpp(242): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  d:\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+f:\code\毕设\koaliengine\koaliengine\src\zfxlodterrain.cpp(249): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  d:\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+f:\code\毕设\koaliengine\koaliengine\src\zfxlodterrain.cpp(537): error C2039: “GetPosX”: 不是“Camera”的成员
+  f:\code\毕设\koaliengine\koaliengine\include\camera.h(8): note: 参见“Camera”的声明
+f:\code\毕设\koaliengine\koaliengine\src\zfxlodterrain.cpp(537): error C2039: “GetPosY”: 不是“Camera”的成员
+  f:\code\毕设\koaliengine\koaliengine\include\camera.h(8): note: 参见“Camera”的声明
+f:\code\毕设\koaliengine\koaliengine\src\zfxlodterrain.cpp(537): error C2039: “GetPosZ”: 不是“Camera”的成员
+  f:\code\毕设\koaliengine\koaliengine\include\camera.h(8): note: 参见“Camera”的声明
+f:\code\毕设\koaliengine\koaliengine\src\zfxlodterrain.cpp(543): error C2039: “GetLookVec”: 不是“Camera”的成员
+  f:\code\毕设\koaliengine\koaliengine\include\camera.h(8): note: 参见“Camera”的声明
+  正在生成代码...

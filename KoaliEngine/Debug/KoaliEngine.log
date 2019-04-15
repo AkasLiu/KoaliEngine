@@ -1,0 +1,4 @@
+﻿  Camera.cpp
+ParticleSystem.obj : warning LNK4006: "float __cdecl GetRandomFloat(float,float)" (?GetRandomFloat@@YAMMM@Z) 已在 SnowSystem.obj 中定义；已忽略第二个定义
+ParticleSystem.obj : warning LNK4006: "void __cdecl GetRandomVector(struct D3DXVECTOR3 *,struct D3DXVECTOR3 *,struct D3DXVECTOR3 *)" (?GetRandomVector@@YAXPAUD3DXVECTOR3@@00@Z) 已在 SnowSystem.obj 中定义；已忽略第二个定义
+  KoaliEngine.vcxproj -> F:\Code\毕设\KoaliEngine\Debug\KoaliEngine.lib
